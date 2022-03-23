@@ -2,7 +2,7 @@ import { LightningElement } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 export default class ToastMessageDemo extends LightningElement {
-
+    //toastmessage for error
     showErrorToast() {
         const evt = new ShowToastEvent({
             title: 'Toast Error',
